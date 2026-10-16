@@ -1,5 +1,9 @@
 # FNTV Emby Compare
 
+**简体中文** | [繁體中文](README.zh-TW.md) | [English](README.en.md)
+
+---
+
 🔍 **飞牛影视与 Emby 媒体识别对比工具。**
 
 同一份媒体同时在飞牛影视和 Emby 建库后，可能出现识别成不同作品、TMDb ID 缺失等问题。本工具按同名媒体库及库内相对路径匹配电影和整部剧集，对比双方的 TMDb ID，帮助定位可疑条目，供人工排查与修正。
@@ -26,7 +30,9 @@ fntv-emby-compare/
 ├── fntv_emby_compare.py  # 主脚本
 ├── requirements.txt     # Python 依赖
 ├── LICENSE              # GNU GPL v3.0 许可证
-└── README.md
+├── README.md               # 简体中文（默认）
+├── README.zh-TW.md         # 繁體中文
+└── README.en.md            # English
 ```
 
 ## 🚀 使用
@@ -167,6 +173,16 @@ ID 差异不代表已确认识别错误，请人工核查。
 **有独有 ID，但没有逐条列出相同数量的条目**：查看同路径差异及目录候选部分，相关条目已经单独列出，避免重复打印；ID 数量和多版本条目数量也可能不同。
 
 **没有匹配到同名库**：检查两边媒体库名称是否一致。课程、合集等单边存在的库会跳过，不会自动创建或修改。
+
+## 📈 Star History
+
+<a href="https://www.star-history.com/?repos=ffinly%2Ffntv-emby-compare&amp;type=date&amp;legend=top-left">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ffinly/fntv-emby-compare&amp;type=date&amp;theme=dark&amp;legend=top-left" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ffinly/fntv-emby-compare&amp;type=date&amp;legend=top-left" />
+    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ffinly/fntv-emby-compare&amp;type=date&amp;legend=top-left" />
+  </picture>
+</a>
 
 ## 📄 License
 
